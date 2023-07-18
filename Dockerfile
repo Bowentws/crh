@@ -4,6 +4,7 @@ ADD conf.ini /root/cloudreve/conf.ini
 # 付费版需要下载许可证，删除下方的#
 ADD key.bin /root/cloudreve/key.bin
 ADD run.sh /root/cloudreve/run.sh
+ADD cloudreve.db /root/cloudreve/cloudreve.db
 
 RUN apt-get update \
     && apt-get install wget curl  -y
