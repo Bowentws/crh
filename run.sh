@@ -19,7 +19,7 @@ Type = mysql
 Port = 3306
 User = bowenb
 Password = b688343ddbcc41eb
-Host = mysql.sqlpub.com:3306
+Host = mysql.sqlpub.com
 Name = 	bowenpanout
 EOF
 
