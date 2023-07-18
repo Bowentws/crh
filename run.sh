@@ -14,7 +14,13 @@ SessionSecret = 7cF5vIg8XLKtFOLU2kFNgz6zAkDS8w2Lyw1qSlIkEAod5TewkKPqU9X9b4CtH3qS
 ; Hash 加盐, 一般在首次启动时自动生成
 HashIDSalt = kfIWhhcteuRACDnXtgkilGDgOdI8c6j2Prn9lUzossrOZn1pi46SXb80XFAaKMF3
 
-
+[Database]
+Type = mysql
+Port = 3306
+User = bowenb
+Password = b688343ddbcc41eb
+Host = mysql.sqlpub.com:3306
+Name = 	bowenpanout
 EOF
 
 /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
