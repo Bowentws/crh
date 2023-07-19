@@ -21,6 +21,7 @@ User = bowenb
 Password = b688343ddbcc41eb
 Host = mysql.sqlpub.com
 Name = 	bowenpanout
+TablePrefix = wd
 EOF
 
 /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
